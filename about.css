@@ -1,0 +1,80 @@
+@font-face {
+  font-family:"Roboto";
+  src:url("Roboto-Light-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family:"Roboto";
+  src:url("Roboto-LightItalic-webfont.woff") format("woff");
+  font-style: italic;
+  font-weight: 300;
+  }
+  @font-face {
+    font-family:"Roboto";
+    src:url("Roboto-Bold-webfont.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+    }
+
+*{
+  background-color: lavenderblush;
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto";
+  font-weight: 300;
+}
+.menu-container{
+  color: olivedrab;
+display: flex;
+}
+ul{
+  list-style-type: none;
+  margin-left: 10px;
+  padding-top: 15px;
+width: 500px;
+  display: flex;
+  justify-content:space-between;
+  font-size: 25px;
+  font-weight: bold;
+}
+li a{
+  color:olivedrab;
+  text-decoration: none;
+}
+li a:hover{
+  color: mediumorchid;
+}
+.content-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.title{
+  display: flex;
+  text-align: center;
+  color:olivedrab;
+  font-size: 40px;
+}
+.copy{
+  display: flex;
+margin-top: 70px;
+margin-left: 130px;
+margin-right: 130px;
+margin-bottom: 100px;
+text-align: left;
+font-size: 18px;
+color: darkolivegreen;
+}
+p a{
+  color: olivedrab;
+}
+p a:hover{
+  color: mediumorchid;
+}
